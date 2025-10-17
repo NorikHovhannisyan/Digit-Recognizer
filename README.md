@@ -67,8 +67,11 @@ y = train['label']`
 - Experiment with dropout and batch normalization.
 - Try ensemble models or advanced architectures like ResNet.
 
-GitHub link:
+## GitHub link:
+https://github.com/NorikHovhannisyan/Digit-Recognizer.git
 
+## Kaggle link for dowloading files:
+https://www.kaggle.com/competitions/digit-recognizer/data
 
 # 🧑‍💻 Author
 
