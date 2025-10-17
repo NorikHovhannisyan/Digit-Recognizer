@@ -11,12 +11,6 @@ This project focuses on building a machine learning model capable of recognizing
 - `test.csv` — contains the same pixel structure, but without labels.
 - The task is to train a model on train.csv and then predict the labels for test.csv.
 - Each image can be reshaped into a 28×28 grid for visualization.
-- 
-## 🧩 Example Structure
-label	pixel0	pixel1	pixel2	...	pixel783
-3	0	0	12	...	255
-7	0	4	0	...	0
-
 
 ## ⚙️ Data Preprocessing
 
@@ -36,7 +30,7 @@ y = train['label']`
 ])``
 
 ### 🔹 Convolutional Neural Network (Advanced)
-`Sequential([
+`Sequential([ \n
     Conv2D(32, (3,3), activation='relu', input_shape=(28,28,1)),
     MaxPooling2D(2,2),
     Conv2D(64, (3,3), activation='relu'),
@@ -55,16 +49,6 @@ y = train['label']`
 - Performance metric: categorization accuracy
 - A model with accuracy ≈ 0.99 means it correctly classifies 99% of test images.
 
-## 🚀 Submission Format
-
-For each image in test.csv, you must predict the digit and save results as:
-
-ImageId,Label
-1,3
-2,7
-3,8
-...
-
 ## 🧾 Technologies Used
 
 - Python 
@@ -82,6 +66,9 @@ ImageId,Label
 - Use data augmentation to improve robustness.
 - Experiment with dropout and batch normalization.
 - Try ensemble models or advanced architectures like ResNet.
+
+GitHub link:
+
 
 # 🧑‍💻 Author
 
